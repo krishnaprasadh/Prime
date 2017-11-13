@@ -13,7 +13,7 @@ printf(" Totalprime=%d, Totalcomposite=%d\n",primeno,compositeno);
 
 void prime(int num)
 {
-int p,q,i,prime,composite;
+int p,q,i;
 for(int i=1;i<=num;i++)
 {
 if(num%i==0)
